@@ -22,8 +22,8 @@ system_msg = """The assistant fetches and displays a table of recent transaction
 
 welcome_message = """ Hi I am your friend Chatbot Saakal, I can help you in the Vulnerable App to Fetch the infromation about your recent transactions \n\n Try asking me: What are my recent transactions?"""
 
-st.set_page_config(page_title="The SecOps Vulnerable LLM Agent")
-st.title("The SecOps Vulnerable LLM Agent")
+st.set_page_config(page_title="The Vulnerable LLM Agent")
+st.title("The Vulnerable LLM Agent")
 
 hide_st_style = """
             <style>
@@ -85,6 +85,7 @@ if prompt := st.chat_input(placeholder="Show my recent transactions"):
 
 display_instructions()
 display_logo()
+
 
 
         
